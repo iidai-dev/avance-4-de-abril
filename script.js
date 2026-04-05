@@ -1,5 +1,5 @@
 // CARGAR NAVBAR
-fetch("navbar.html")
+fetch("/avance-4-de-abril/navbar.html")
   .then(res => res.text())
   .then(data => {
     document.getElementById("navbar").innerHTML = data;
